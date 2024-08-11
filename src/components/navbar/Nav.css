@@ -1,0 +1,42 @@
+/* Nav.css */
+
+.nav {
+    background-color: #1f1f1f; /* Dark background for the navbar */
+    padding: 10px 20px;
+    border-bottom: 2px solid #ef4444; /* Red bottom border */
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    display: flex;
+  }
+  
+  .nav-link {
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #ef4444; /* Red background on hover */
+    color: #ffffff; /* White text color on hover */
+  }
+  
+  .nav-link.active {
+    background-color: #ffffff; /* White background for the active link */
+    color: #1f1f1f; /* Dark text color for the active link */
+    border-radius: 8px;
+  }
+  
+  
